@@ -8,7 +8,6 @@ const StyledButton = (props) => {
    const backgroundColor = type === 'primary' ? 'black' : 'white'
    const textColor = type === 'primary' ? 'white' : 'black'
    
-
    return (
       <View style={styles.container}>
          <Pressable
